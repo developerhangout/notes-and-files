@@ -1,0 +1,9 @@
+# defaultEntryPoints = ["http", "https"]
+defaultEntryPoints = ["http"]
+# defaultEntryPoints = ["https"]
+
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+
+
